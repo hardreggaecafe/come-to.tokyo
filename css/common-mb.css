@@ -1,0 +1,316 @@
+
+/* Stylesheet for Mobile */
+
+body#top {
+	background-image:url("/images/mobile-bg.png");
+}
+
+.gototop {
+	background: url(/images/logo-bg3.png) no-repeat;
+	width: 420px;
+	height: 315px;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	clear:both;	
+}
+
+.gototop2 {
+	background: url(/images/logo-bg4.png) no-repeat;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+}
+
+#mainbody{
+	margin-top: 350px;
+	position: absolute;
+}
+
+.tagline {
+	background-color: darkmagenta;
+	opacity: 0.8;
+}
+
+.tagline h1{
+	text-align: center;
+	padding: 3px;
+	margin:0px;
+	font-size: 300%;
+	color: white;
+	clear:both;	
+}
+
+.tagline h2{
+	text-align: center;
+	padding: 3px;
+	margin:0px;
+	font-size: 240%;
+	color: white;
+	background-color: darkmagenta;
+	opacity: 0.8;
+}
+
+#common-header {
+	height: 150px;
+	background-color: darkturquoise;
+}
+
+#copyright {
+	position: relative;
+	top: 1400px;
+	text-align: center;
+	color: black;
+	font-size: 200%;
+	clear:both;
+}
+
+#copyright-contents {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-size: 100%;
+}
+
+
+.tblhdr-even {
+	background-color: seashell;
+}
+
+.tblhdr-odd {
+	background-color: moccasin;
+}
+
+#mainarticle {
+	width: 1000px;
+}
+
+#mainarticle h2{
+	font-size:280%;
+}
+
+#mainarticle h3{
+	font-size:240%;
+}
+
+#mainarticle p{
+	font-size:200%;
+}
+
+
+.contents-block {
+	margin-top: 30px;
+}
+
+.link-to-contents-restaurant {
+	-moz-border-radius: 20px;    /* Firefox */
+	-webkit-border-radius: 20px; /* Safari,Chrome */
+	border-radius: 20px;         /* CSS3 */
+
+	border: 9px rgb(242, 137, 173) solid;
+	background-color: #ffcccc;
+	margin-left:10px;
+	width: 1000px;
+	float: left;
+}
+
+.link-to-contents-attraction {
+	-moz-border-radius: 20px;    /* Firefox */
+	-webkit-border-radius: 20px; /* Safari,Chrome */
+	border-radius: 20px;         /* CSS3 */
+
+	border: 9px rgb(139, 139, 210) solid;
+	background-color: #ccccff;
+	margin-left:10px;
+	width: 1000px;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+.link-to-contents-restaurant:hover {
+	border: 9px rgb(200, 117, 143) solid;
+	background-color: #ffaaaa;
+}
+
+.link-to-contents-attraction:hover {
+	border: 9px rgb(100, 119, 180) solid;
+	background-color: #aaaaff;
+}
+.frontpage-contents-thumb {
+	max-width: 300px;
+	height:auto;
+	float: left;
+	padding: 5px;
+}
+
+.frontpage-contents-title {
+	font-size: 180%;
+	padding: 9px;
+	margin-top: 0px;
+}
+
+.frontpage-contents-tagline {
+	font-size: 160%;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.lastupdate {
+	font-size: 180%;
+	text-align:right;
+	margin:20px;
+}
+
+.author-profile {
+	-moz-border-radius: 20px;    /* Firefox */
+	-webkit-border-radius: 20px; /* Safari,Chrome */
+	border-radius: 20px;         /* CSS3 */
+
+	border: 9px rgb(242, 137, 173) solid;
+	background-color: #ffeeee;
+	margin-left:10px;
+	width: 1000px;
+	height: auto;
+	min-height: 150px;
+}
+
+.profile-thumb {
+	width: auto;
+	height:140px;
+	float: left;
+	padding: 10px;
+}
+
+.profile-name {
+	font-size: 240%;
+	padding: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.profile-detail {
+	font-size: 200%;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+.article-image-large {
+	max-width: 70%;
+	height:auto;
+}
+
+.article-image-small {
+	max-width: 70%;
+	height:auto;
+}
+
+.contents-title {
+	margin-bottom: 3px;
+	font-size: 180%;
+}
+
+#information {
+	font-size: 180%;
+}
+
+#ensign {
+	margin-left: 50%;
+}
+
+#ensign ul{ 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+#ensign li{ 
+	padding: 0; 
+	margin: 0; 
+	float: left;
+}
+
+#ensign li a#eng{
+	display: block; 
+	background: url("/images/flags/United-Kingdom-02.png") no-repeat;
+	border: 0px;
+	text-decoration: none;
+	width: 100px; 
+	height: 100px;
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#ensign li a#eng:hover{
+	display: block; 
+	background: url("/images/flags/United-Kingdom-02-dark.png") no-repeat;
+	text-decoration: underline;
+	color: #fff;
+	margin: 0px;
+}
+
+#ensign li a#jpn{
+	display: block; 
+	background: url("/images/flags/Japan-02.png") no-repeat;
+	border: 0px;
+	text-decoration: none;
+	width: 100px; 
+	height: 100px;
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#ensign li a#jpn:hover{
+	display: block; 
+	background: url("/images/flags/Japan-01-dark.png") no-repeat;
+	text-decoration: underline;
+	color: #fff;
+	margin: 0px;
+}
+
+#ensign li a#chn{
+	display: block; 
+	background: url("/images/flags/China-02.png") no-repeat;
+	border: 0px;
+	text-decoration: none;
+	width: 100px; 
+	height: 100px;
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#ensign li a#chn:hover{
+	display: block; 
+	background: url("/images/flags/China-02-dark.png") no-repeat;
+	text-decoration: underline;
+	color: #fff;
+	margin: 0px;
+}
+
+#ensign li a#vie{
+	display: block; 
+	background: url("/images/flags/Vietnam-02.png") no-repeat;
+	border: 0px;
+	text-decoration: none;
+	width: 100px; 
+	height: 100px;
+	margin: 0px;
+	padding: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#ensign li a#vie:hover{
+	display: block; 
+	background: url("/images/flags/Vietnam-02-dark.png") no-repeat;
+	text-decoration: underline;
+	color: #fff;
+	margin: 0px;
+}

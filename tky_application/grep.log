@@ -1,0 +1,4 @@
+controllers/Welcome.php:class Welcome extends CI_Controller {
+views/welcome_message.php:	<title>Welcome to CodeIgniter</title>
+views/welcome_message.php:	<h1>Welcome to CodeIgniter!</h1>
+views/welcome_message.php:		<code>application/controllers/Welcome.php</code>
